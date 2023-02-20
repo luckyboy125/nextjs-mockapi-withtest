@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  position: absolute;
+  width: 100%;
+}
+.item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.item :hover {
+  color: #dba940;
+}
+.activeItem {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  margin-right: 30px;
+  color: #dba940;
+  cursor: pointer;
+}

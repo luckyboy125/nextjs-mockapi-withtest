@@ -1,0 +1,33 @@
+{
+  "name": "next-test-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@next/font": "13.0.7",
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@testing-library/user-event": "14.2.0",
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.9",
+    "axios": "^1.2.1",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
+    "msw": "^0.49.2",
+    "next": "13.0.7",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "4.6.4"
+  }
+}

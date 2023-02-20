@@ -1,0 +1,27 @@
+.root {
+  text-align: center;
+  border-top: solid 1px rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  height: 100px;
+  min-height: 100px;
+  align-items: center;
+  background: #0d0d0d;
+}
+
+.root p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.root h5 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
