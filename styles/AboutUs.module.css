@@ -1,0 +1,74 @@
+.root {
+  background: #0d0d0d;
+  min-height: calc(100vh - 100px);
+  padding: 150px 0 0 0;
+}
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 60px;
+  margin: 0 50px;
+}
+
+.imageRoot {
+  padding: 50px;
+}
+
+.imageItem {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 270px;
+  height: 270px;
+  margin: auto;
+}
+
+.imageRoot img {
+  /* width: 100%;
+  height: 100%; */
+}
+
+.contactUsRoot {
+  padding: 50px;
+  background-color: #121212;
+}
+
+.contactUsRoot h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 43px;
+}
+
+.contactItem {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contactItem i {
+  font-size: 23px;
+  line-height: 30px;
+  color: #dba940;
+}
+
+.contactItem span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-left: 15px;
+}

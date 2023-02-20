@@ -1,0 +1,45 @@
+.main {
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
+
+.title h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.titleDes {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.titleDes p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 45px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.titleDes span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-left: 10px;
+}
